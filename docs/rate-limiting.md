@@ -8,8 +8,8 @@ The Access Layer server implements rate limiting to protect the system against r
 
 Rate limiting is implemented using the `express-rate-limit` middleware, which registers a global limiter applied to all incoming API requests (except for health checks and doc serving paths that bypass it or have their own handling).
 
-- **Middleware Location:** [rate.middleware.ts](file:///c:/Users/PC/Desktop/accesslayer-server/src/middlewares/rate.middleware.ts)
-- **Application Setup:** [app.ts](file:///c:/Users/PC/Desktop/accesslayer-server/src/app.ts) (mounted via `app.use(appRateLimit)`)
+- **Middleware Location:** [rate.middleware.ts](../src/middlewares/rate.middleware.ts)
+- **Application Setup:** [app.ts](../src/app.ts) (mounted via `app.use(appRateLimit)`)
 
 ---
 

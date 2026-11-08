@@ -13,8 +13,8 @@ This guide walks you through setting up the Access Layer server for local develo
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/accesslayerorg/accesslayer-server.git
-cd accesslayer-server
+git clone https://github.com/accesslayerorg/falcon-server.git
+cd falcon-server
 ```
 
 ### 2. Install Dependencies

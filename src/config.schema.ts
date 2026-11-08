@@ -101,7 +101,7 @@ export const envSchema = z
          .string()
          .min(32, 'JWT_SECRET should be at least 32 characters')
          .default('accesslayer_default_development_jwt_secret_key_32_bytes'),
-      JWT_ISSUER: z.string().default('accesslayer-server'),
+      JWT_ISSUER: z.string().default('falcon-server'),
       JWT_EXPIRES_IN: z.string().default('15m'),
       JWT_ACCESS_TOKEN_TTL_SECONDS: z.coerce
          .number()

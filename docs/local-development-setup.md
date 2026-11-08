@@ -36,8 +36,8 @@ Run these in order from a terminal.
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/accesslayerorg/accesslayer-server.git
-cd accesslayer-server
+git clone https://github.com/accesslayerorg/falcon-server.git
+cd falcon-server
 ```
 
 ### Step 2 — Install dependencies

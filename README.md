@@ -1,8 +1,10 @@
-# Access Layer Server
+# Falcon Server
 
-This repository contains the backend API for Access Layer.
+Falcon Server is the open-source backend for Access Layer, a Stellar-native creator keys marketplace. It supports creators and fans with the off-chain services needed to discover creators, manage profiles, verify access, and coordinate with Stellar contracts.
 
-The server is the off-chain layer for the product. It handles the parts of the marketplace that do not need to live inside Stellar smart contracts, while coordinating with the client and contracts as the product grows.
+The project aims to make creator-owned digital communities easier to build on open infrastructure. The backend complements, rather than replaces, on-chain rules: it handles API, indexing, metadata, and access workflows while the contracts remain the source of truth for on-chain activity.
+
+The code is MIT-licensed. For a concise project scope, verifiable evidence, and proposed outcomes suitable for a funding application, see the [Grant Readiness Brief](./docs/grant-readiness.md).
 
 ## Purpose
 

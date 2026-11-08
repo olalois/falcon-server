@@ -43,6 +43,7 @@ describe('Config Validation and Source Precedence', () => {
          expect(defaults.STELLAR_HORIZON_URL).toBe(
             'https://horizon-testnet.stellar.org'
          );
+         expect(defaults.JWT_ISSUER).toBe('falcon-server');
          expect(defaults.API_VERSION).toBe('1.0.0');
          expect(defaults.ENABLE_INDEXER_DEDUPE).toBe(true);
       });

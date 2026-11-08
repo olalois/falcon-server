@@ -5,7 +5,7 @@
  * These are intentionally unused — they establish the contract
  * for cursor pagination before any endpoint adopts it.
  *
- * @see https://github.com/accesslayerorg/accesslayer-server/issues/42
+ * @see https://github.com/accesslayerorg/falcon-server/issues/42
  */
 
 /** Input parameters for a cursor-paginated query. */

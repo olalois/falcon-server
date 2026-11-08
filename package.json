@@ -1,11 +1,11 @@
 {
-   "name": "accesslayer-server",
+   "name": "falcon-server",
    "version": "0.1.0",
    "description": "Backend API for Access Layer, the off-chain server for a Stellar-native creator keys marketplace.",
    "license": "MIT",
    "repository": {
       "type": "git",
-      "url": "https://github.com/accesslayerorg/accesslayer-server.git"
+      "url": "https://github.com/accesslayerorg/falcon-server.git"
    },
    "packageManager": "pnpm@10.6.5",
    "scripts": {
